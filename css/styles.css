@@ -1,0 +1,108 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.nav-list {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.contacts-list {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* hero-block */
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+}
+
+.hero-title {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+/* Features-block */
+
+.features-list {
+  display: flex; /* ставимо всі li в ряд */
+  gap: 20px; /* відступи між блоками */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.features-item {
+  flex: 1; /* щоб усі колонки були однакової ширини */
+  text-align: center; /* вирівнювання по центру */
+  padding: 10px;
+}
+
+.features-item-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.features-item-text {
+  font-size: 14px;
+  line-height: 1.5;
+}
+/* Team-block */
+/* Заголовок по центру */
+.team-title {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+/* Список у ряд */
+.team-list {
+  display: flex; /* ставимо всі li в один ряд */
+  gap: 20px; /* відступи між картками */
+  list-style: none;
+  justify-content: center; /* центруємо по горизонталі */
+  margin: 0;
+  padding: 0;
+}
+
+/* Картка учасника */
+.team-item {
+  text-align: center; /* вирівнювання тексту під фото */
+  background: #f9f9f9; /* легкий фон (можна прибрати) */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.team-name {
+  font-size: 20px;
+  margin: 15px 0 5px;
+}
+
+.team-role {
+  font-size: 16px;
+  color: #666;
+}
