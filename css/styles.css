@@ -5,6 +5,12 @@ body {
 .text-color {
   color: #2e2f42;
 }
+.text-color:hover {
+  color: #404bbf;
+}
+.text-color:focus {
+  color: #404bbf;
+}
 /* хедер */
 .header {
   display: flex;
