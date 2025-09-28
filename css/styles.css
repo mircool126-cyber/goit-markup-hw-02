@@ -1,19 +1,35 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.text-color {
+  color: #2e2f42;
+}
+
 .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px;
+  padding: 25.5px 156px 25.5px 156px;
+}
+
+.logo {
+  margin-right: 76px;
 }
 
 .nav {
   display: flex;
   align-items: center;
-  gap: 40px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .nav-list {
   display: flex;
-  gap: 20px;
+  gap: 40px;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -21,7 +37,7 @@
 
 .contacts-list {
   display: flex;
-  gap: 20px;
+  gap: 40px;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -34,17 +50,30 @@
   align-items: center;
   text-align: center;
   height: 100vh;
+  background: #2e2f42;
+  padding: 188px 472px 292px 472px;
 }
 
 .hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07143;
+  letter-spacing: 0.02em;
+  text-align: center;
   font-size: 36px;
   margin-bottom: 20px;
+  color: #f4f4fd;
 }
 
 .hero-btn {
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
+  border-radius: 4px;
+  width: 169px;
+  height: 56px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #4d5ae5;
 }
 /* Features-block */
 
@@ -103,6 +132,34 @@
 }
 
 .team-role {
+  font-weight: 400;
   font-size: 16px;
-  color: #666;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+/* футер */
+.footer {
+  padding: 140px 1020px 100px 156px;
+  width: 1440px;
+  height: 312px;
+  background: #2e2f42;
+  font-family: "Roboto", "Raleway", sans-serif;
+}
+
+.logo-footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 0px;
+  width: 115px;
+  height: 24px;
+}
+.text-footer {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
