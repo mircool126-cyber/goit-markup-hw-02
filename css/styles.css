@@ -64,6 +64,15 @@ body {
   margin: 0;
   padding: 0;
 }
+.contacts-item {
+  color: #434455;
+}
+.contacts-item:hover {
+  color: #404bbf;
+}
+.contacts-item:focus {
+  color: #404bbf;
+}
 /* hero-block */
 .hero {
   display: flex;
