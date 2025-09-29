@@ -121,16 +121,16 @@ body {
 /* Features-block */
 
 .features-list {
-  display: flex; /* ставимо всі li в ряд */
-  gap: 20px; /* відступи між блоками */
+  display: flex;
+  gap: 20px;
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
 .features-item {
-  flex: 1; /* щоб усі колонки були однакової ширини */
-  text-align: center; /* вирівнювання по центру */
+  flex: 1;
+  text-align: center;
   padding: 10px;
 }
 
@@ -150,7 +150,6 @@ body {
   color: #434455;
 }
 /* Team-block */
-/* Заголовок секції (перевикористовуємо team-title) */
 .team {
   background-color: #f4f4fd;
   font-family: "Raleway", sans-serif;
@@ -174,7 +173,7 @@ body {
 /* Картки у ряд */
 .team-list {
   display: flex;
-  flex-wrap: wrap; /* щоб переносилися на новий ряд */
+  flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
   list-style: none;
@@ -210,7 +209,10 @@ body {
   margin: 0 0 15px 15px;
 }
 
-/* 4 секція */
+/* Секція Portfolio */
+.projects {
+  padding: 120px 0;
+}
 
 .projects-title {
   font-size: 36px;
@@ -219,6 +221,43 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
+}
+
+.projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1200px;
+  justify-content: center;
+}
+
+.projects-item {
+  width: 360px;
+  background-color: #ffffff;
+  border: 1px solid #e7e9fc;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.projects-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin: 16px 16px 8px;
+}
+
+.projects-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  margin: 0 16px 16px;
 }
 /* футер */
 .footer {
