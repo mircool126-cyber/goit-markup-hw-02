@@ -149,6 +149,9 @@ body {
 }
 /* Team-block */
 /* Заголовок секції (перевикористовуємо team-title) */
+.team {
+  background-color: #f4f4fd;
+}
 .team-title {
   font-size: 36px;
   line-height: 1.11;
