@@ -210,6 +210,16 @@ body {
   margin: 0 0 15px 15px;
 }
 
+/* 4 секція */
+
+.projects-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
 /* футер */
 .footer {
   padding: 140px 1020px 100px 156px;
