@@ -16,7 +16,7 @@ body {
 /* хедер */
 .header {
   display: flex;
-  align-items: center;
+
   justify-content: space-between;
   padding: 25.5px 156px 25.5px 156px;
 }
@@ -37,7 +37,7 @@ body {
 
 .nav {
   display: flex;
-  align-items: center;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -82,7 +82,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  height: 100vh;
+
   background: #2e2f42;
   padding: 188px 472px 292px 472px;
 }
@@ -102,8 +102,7 @@ body {
   font-size: 16px;
   cursor: pointer;
   border-radius: 4px;
-  width: 169px;
-  height: 56px;
+
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
   font-weight: 500;
@@ -183,7 +182,6 @@ body {
 
 /* Картка */
 .team-item {
-  width: 360px;
   background: #ffffff;
   border: 1px solid #e7e9fc;
   border-radius: 8px;
@@ -231,12 +229,11 @@ body {
   list-style: none;
   margin: 0 auto;
   padding: 0;
-  max-width: 1200px;
+
   justify-content: center;
 }
 
 .projects-item {
-  width: 360px;
   background-color: #ffffff;
   border: 1px solid #e7e9fc;
   border-radius: 8px;
@@ -262,20 +259,17 @@ body {
 /* футер */
 .footer {
   padding: 140px 1020px 100px 156px;
-  width: 1440px;
-  height: 312px;
+
   background: #2e2f42;
   font-family: "Roboto", "Raleway", sans-serif;
 }
 
 .logo-footer {
-  display: flex;
   align-items: center;
   justify-content: flex-start;
   flex-direction: row;
   gap: 0px;
-  width: 115px;
-  height: 24px;
+
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
