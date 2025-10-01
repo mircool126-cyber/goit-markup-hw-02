@@ -2,10 +2,12 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
+  font-weight: 400; /* за замовчуванням звичайний */
 }
 
 .text-color {
   color: #2e2f42;
+  text-decoration: none;
 }
 .text-color:hover {
   color: #404bbf;
@@ -27,6 +29,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  text-decoration: none;
 }
 .logo-web {
   color: #2e2f42;
@@ -38,6 +41,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-decoration: none;
 }
 
 .nav-list {
@@ -54,9 +58,11 @@ body {
 .contacts-list {
   list-style: none;
   margin: 0;
+  text-decoration: none;
 }
 .contacts-item {
   color: #434455;
+  text-decoration: none;
 }
 .contacts-item:hover {
   color: #404bbf;
@@ -67,9 +73,7 @@ body {
 /* hero-block */
 .hero {
   justify-content: center;
-
   text-align: center;
-
   background: #2e2f42;
 }
 
@@ -119,6 +123,8 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
 }
 
 .features-item-text {
@@ -126,6 +132,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
 }
 /* Team-block */
 .team {
@@ -172,6 +180,8 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin: 15px 0 5px 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
 }
 
 /* Текст підзаголовка */
@@ -181,6 +191,8 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
   margin: 0 0 15px 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
 }
 
 /* Секція Portfolio */
@@ -244,6 +256,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  text-decoration: none;
 }
 .text-footer {
   font-weight: 400;
